@@ -1,0 +1,76 @@
+body {
+    background: #bd4b65;
+    font-family: 'Caveat', cursive;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+#app {
+    width: 70%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    background: #5adfca;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%, -50%);
+}
+
+#toggleMode {
+    background-color: #cf7c60;
+    color: #364d53;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: .7rem;
+    border-radius: 5px;
+    font-family: 'Caveat', cursive;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    cursor: pointer;
+}
+
+#toggleMode:hover {
+    background-color: #ebcdd5;
+    color:#bd4b65;
+    padding: 1rem;
+}
+
+#taskForm{
+    margin-left:.2rem;
+    margin-right:.2rem;
+    
+}
+
+#taskForm input {
+    border: #364d53;
+    font-family: 'Caveat', cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.submit {
+    background-color: #cf7c60;
+    font-family: 'Caveat', cursive;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #364d53;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding:.2rem 1rem;
+    transition: all 0.2s;
+}
+
+.submit:hover {
+    background-color: #ebcdd5;
+    color:#bd4b65;
+    padding:.5rem 1.5rem;
+}
+
